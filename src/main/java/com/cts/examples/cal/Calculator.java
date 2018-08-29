@@ -29,7 +29,10 @@ public class Calculator implements ICalculator {
 		if (a == b) {
 			result = true;
 		}
-
+ int j;
+   		while (true) {  
+   		  j++;
+ 		}
 		return result;
 	}
 }
