@@ -7,6 +7,7 @@ public class Calculator implements ICalculator {
 		 int j;
   		while (true) {  
   		  j++;
+		}
 		return a + b;
 		
 		
