@@ -1,7 +1,7 @@
 package com.cts.examples.cal;
 
 public class Calculator implements ICalculator {
-
+public int x=0;
 	public int sum(int a, int b) {
 		 
 		return a + b;
