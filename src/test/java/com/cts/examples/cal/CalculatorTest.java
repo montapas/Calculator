@@ -21,7 +21,7 @@ public class CalculatorTest {
 		calculator = new Calculator();
 	}
 
-	@Before
+/*	@Before
 	public void beforeEachTest() {
 		
 	}
@@ -30,7 +30,7 @@ public class CalculatorTest {
 	public void afterEachTest() {
 		
 	}
-
+*/
 	@Test
 	public void testSum() {
 		int result = calculator.sum(3, 4);
