@@ -25,6 +25,7 @@ public class CalculatorTest {
 	public void testSum() {
 		int result = calculator.sum(3, 4);
                 int k;
+		int j;
 		assertEquals(7, result);
 	}
 
