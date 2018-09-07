@@ -4,6 +4,7 @@ public class Calculator implements ICalculator {
 
 	public int sum(int a, int b) {
 		int k;
+		int j;
 		return a + b;
 	}
 	 
