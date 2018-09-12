@@ -26,7 +26,7 @@ public class CalculatorTest {
 		int result = calculator.sum(3, 4);
                 int k;
 		int j;
-		assertEquals(7, result);
+		assertEquals(6, result);
 	}
 
 	@Test
@@ -34,7 +34,7 @@ public class CalculatorTest {
 		try {
 			int result = calculator.divison(10, 2);
 
-			assertEquals(5, result);
+			assertEquals(4, result);
 		} catch (Exception e) {
 			e.printStackTrace(System.err);
 		}
