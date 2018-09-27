@@ -21,7 +21,7 @@ public class Calculator implements ICalculator {
 	 
 	public boolean equalIntegers(int a, int b) {
 		boolean result = false;
-
+               int gg;
 		if (a == b) {
 			result = true;
 		}
