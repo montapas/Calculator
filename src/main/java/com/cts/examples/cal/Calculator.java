@@ -3,9 +3,7 @@ package com.cts.examples.cal;
 public class Calculator implements ICalculator {
 
 	public int sum(int a, int b) {
-		 int k;
-		int p;
-		int q;
+		
 		return a + b;
 	}
 	 
