@@ -6,6 +6,8 @@ public class Calculator implements ICalculator {
 		int p;
 		int r;
 		int jj;
+		int kk;
+		int oo;
 		return a + b;
 	}
 	 
