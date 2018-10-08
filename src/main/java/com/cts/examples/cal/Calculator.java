@@ -3,7 +3,11 @@ package com.cts.examples.cal;
 public class Calculator implements ICalculator {
 
 	public int sum(int a, int b) {
-		
+		if (a == 1) {
+		 a=2;
+		} else if (a== 2) {
+		   a=3;
+		}
 		return a + b;
 	}
 	 
