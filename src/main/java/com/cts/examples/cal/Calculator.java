@@ -6,7 +6,7 @@ public class Calculator implements ICalculator {
 		int target = -5;
 		int num = 3;
 		target =+ num; // Noncompliant; target = 3
-		 return a + b;
+		 return a + b; 
 	}
 	 
 	public int subtraction(int a, int b) {
