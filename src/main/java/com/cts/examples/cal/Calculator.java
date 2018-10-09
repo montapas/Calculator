@@ -11,8 +11,9 @@ public class Calculator implements ICalculator {
 	}
 	 
 	public int multiplication(int a, int b) {
-		int p;
-		int q;
+		int target = -5;
+		int num = 3;
+		target =+ num; // Noncompliant; target = 3
 		return a * b;
 	}
 
