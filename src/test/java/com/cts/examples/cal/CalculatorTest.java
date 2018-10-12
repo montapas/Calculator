@@ -23,6 +23,7 @@ public class CalculatorTest {
  
 	@Test
 	public void testSum() {
+		System.out.println(String.format("The value of my integer is %d", "Hello World"));  // Noncompliant; an 'int' is expected rather than a String)
 		int result = calculator.sum(3, 4);
              	assertEquals(7, result);
 	}
