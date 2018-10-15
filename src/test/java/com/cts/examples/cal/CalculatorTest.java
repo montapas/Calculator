@@ -32,7 +32,7 @@ public class CalculatorTest {
 	public void testDivison() {
 		try {
 			int result = calculator.divison(10, 2);
-                       System.out.println(String.format("The value of my integer is %d", "Hello World"));  // Noncompliant; an 'int' is expected rather than a String)
+                     //  System.out.println(String.format("The value of my integer is %d", "Hello World"));  // Noncompliant; an 'int' is expected rather than a String)
 			assertEquals(5, result);
 		} catch (Exception e) {
 			e.printStackTrace(System.err);
