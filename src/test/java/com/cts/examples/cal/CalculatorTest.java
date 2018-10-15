@@ -31,7 +31,7 @@ public class CalculatorTest {
 	@Test
 	public void testDivison() {
 		try {
-		
+		       
 			int result = calculator.divison(10, 2);
                     	assertEquals(5, result);
 		} catch (Exception e) {
