@@ -27,7 +27,7 @@ public class CalculatorTest {
 		int result = calculator.sum(3, 4);
              	assertEquals(7, result);
 	}
-
+        @Ignore
 	@Test
 	public void testDivison() {
 		try {
