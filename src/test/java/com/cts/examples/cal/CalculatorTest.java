@@ -27,17 +27,7 @@ public class CalculatorTest {
 		int result = calculator.sum(3, 4);
              	assertEquals(7, result);
 	}
-        @Ignore
-	@Test
-	public void testDivison() {
-		try {
-		       
-			int result = calculator.divison(10, 2);
-                    	assertEquals(5, result);
-		} catch (Exception e) {
-			e.printStackTrace(System.err);
-		}
-	}
+       
 
 	 
 
