@@ -40,6 +40,12 @@ public class CalculatorTest {
 	}
 	
 	@Test
+	public void testSummary() {
+		 int result = calculator.sum(3, 4);
+             	assertEquals(7, result);
+	}
+	
+	@Test
 	public void testSub() {
 		int result = 10 - 3;
 
