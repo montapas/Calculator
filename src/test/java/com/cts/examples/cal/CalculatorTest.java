@@ -50,6 +50,11 @@ public class CalculatorTest {
 		 int result = calculator.sum(3, 4);
              	assertEquals(7, result);
 	}
+	@Test
+	public void testSumResult() {
+		 int result = calculator.sum(3, 4);
+             	assertEquals(7, result);
+	}
 	
 	@Test
 	public void testSub() {
