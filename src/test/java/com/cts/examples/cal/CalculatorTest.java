@@ -28,39 +28,12 @@ public class CalculatorTest {
 	}
        
 	@Test
-	public void testAdd() {
-		 int result = calculator.sum(3, 4);
-             	assertEquals(7, result);
-	}
-	 
-	@Test
-	public void testAddition() {
+	public void testAddVOResult() {
 		 int result = calculator.sum(3, 4);
              	assertEquals(7, result);
 	}
 	
-	@Test
-	public void testSummary() {
-		 int result = calculator.sum(3, 4);
-             	assertEquals(7, result);
-	}
 	
-	@Test
-	public void testResult() {
-		 int result = calculator.sum(3, 4);
-             	assertEquals(7, result);
-	}
-	@Test
-	public void testSumResult() {
-		 int result = calculator.sum(3, 4);
-             	assertEquals(7, result);
-	}
-	
-	@Test
-	public void testAdditionResult() {
-		 int result = calculator.sum(3, 4);
-             	assertEquals(7, result);
-	}
 	
 	@Test
 	public void testSub() {
