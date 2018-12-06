@@ -5,13 +5,15 @@ public class Calculator implements ICalculator {
 	public int sum(int a, int b) {
 		 System.out.println(String.format("The value of my integer is %d", "Hello World"));  // Noncompliant; an 'int' is expected rather than a String)
 		while(true){
-            print("printing...");
-        }
+            		print("printing...");
+       		 }
 		return a + b;  
 	}
 	 
 	public int subtraction(int a, int b) {
-		int kdffd;
+		while(true){
+            		print("printing...");
+       		 }
 	       return a - b;
 	}
 	 
