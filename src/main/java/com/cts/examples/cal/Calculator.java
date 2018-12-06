@@ -18,7 +18,9 @@ public class Calculator implements ICalculator {
 	}
 	 
 	public int multiplication(int a, int b) {
-		 
+		 while(true){
+            		print("printing...");
+       		 }
 		return a * b;
 	}
 
