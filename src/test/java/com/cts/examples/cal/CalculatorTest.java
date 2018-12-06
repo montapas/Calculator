@@ -41,6 +41,14 @@ public class CalculatorTest {
 
 		assertTrue(result == 7);
 	}
+	
+	@Test
+	public void testSubVOResult() {
+		int result = calculator.subtraction(10, 3);
+		assertEquals(7, result);		
+	}
+	
+	
 
 	@Ignore
 	@Test
