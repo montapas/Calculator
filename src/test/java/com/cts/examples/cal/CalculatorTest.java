@@ -53,6 +53,14 @@ public class CalculatorTest {
 		int result = calculator.subtraction(10, 3);
 		assertEquals(7, result);		
 	}
+	
+	@Test
+	public void testMultiplyVOResult() {
+		int result = calculator.multiplication(10, 3);
+		assertEquals(30, result);		
+	}
+	
+	
 
 	@Ignore
 	@Test
