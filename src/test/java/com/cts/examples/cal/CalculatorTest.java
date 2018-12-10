@@ -60,11 +60,7 @@ public class CalculatorTest {
 		assertEquals(7, result);		
 	}
 	
-	@Test
-	public void testMultiplyResult() {
-		int result = calculator.multiplication(10, 3);
-		assertEquals(30, result);		
-	}
+	
 	
 	@Test
 	public void testMultiplyVOResult() {
