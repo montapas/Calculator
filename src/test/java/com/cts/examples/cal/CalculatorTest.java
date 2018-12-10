@@ -27,12 +27,6 @@ public class CalculatorTest {
 	}	
 	
 	@Test
-	public void testAddVORes() {
-		 int result = calculator.sum(3, 4);
-             	assertEquals(7, result);
-	}
-	
-	@Test
 	public void testSub() {
 		int result = 10 - 3;
 		assertTrue(result == 7);
