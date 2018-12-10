@@ -19,60 +19,18 @@ public class CalculatorTest {
 	public static void initCalculator() {
 		calculator = new Calculator();
 	}
-
  
 	@Test
 	public void testSum() {
-		 int result = calculator.sum(3, 4);
+		 int result = 3+4;
              	assertEquals(7, result);
-	}
-       
-	@Test
-	public void testAddVOResult() {
-		 int result = calculator.sum(3, 4);
-             	assertEquals(7, result);
-	}
-	
-	
+	}	
 	
 	@Test
 	public void testSub() {
 		int result = 10 - 3;
-
 		assertTrue(result == 7);
-	}
-	
-	@Test
-	public void testSubVOResult() {
-		int result = calculator.subtraction(10, 3);
-		assertEquals(7, result);		
-	}
-	
-	@Test
-	public void testSubtractionVOResult() {
-		int result = calculator.subtraction(10, 3);
-		assertEquals(7, result);		
-	}
-	
-	@Test
-	public void testSubtractionResult() {
-		int result = calculator.subtraction(10, 3);
-		assertEquals(7, result);		
-	}
-	
-	@Test
-	public void testMultiplyResult() {
-		int result = calculator.multiplication(10, 3);
-		assertEquals(30, result);		
-	}
-	
-	@Test
-	public void testMultiplyVOResult() {
-		int result = calculator.multiplication(10, 3);
-		assertEquals(30, result);		
-	}
-	
-	
+	}	
 
 	@Ignore
 	@Test
@@ -80,13 +38,5 @@ public class CalculatorTest {
 		boolean result = calculator.equalIntegers(20, 20);
 
 		assertFalse(result);
-	}
-
-	 
-	@Test
-	public void testSubstraction() {
-		int result = 10 - 3;
-
-		assertTrue(result == 7);
 	}
 }
